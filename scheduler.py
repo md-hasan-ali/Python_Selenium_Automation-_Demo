@@ -20,8 +20,8 @@ date = driver.find_element(By.XPATH, "date(locator)")
 date.send_keys("Date")
 
 # Event participants 
-participants = driver.find_element(By.XPATH, "participants(locator)")
-participants.send_keys("participants")
+participants = driver.find_element(By.XPATH, "participants email list")
+participants.send_keys("participants email list")
 
 #Submit 
 submit = driver.find_element(By.XPATH, "submit(locator)")
